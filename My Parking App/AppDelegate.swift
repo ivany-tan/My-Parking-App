@@ -1,11 +1,24 @@
+//
+//  AppDelegate.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
-
+        // Using the parkingDataManager as the main management class.
         let manager = ParkingDataManager()
         manager.readParkingPlaces()
 

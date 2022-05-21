@@ -1,3 +1,16 @@
+//
+//  SceneDelegate.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

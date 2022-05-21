@@ -289,7 +289,9 @@
         <scene sceneID="9Vj-xH-0hW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OCD-S2-m9d" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="eaw-YW-9tU"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="eaw-YW-9tU">
+                        <color key="badgeColor" red="0.81511163710000001" green="0.71807533499999998" blue="0.34891223910000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="psA-Ir-OSw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -308,7 +310,9 @@
         <scene sceneID="dSJ-Pp-r5Q">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="314-ZW-K14" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Current Parking" image="parkingsign.circle" catalog="system" id="lY4-as-XZV"/>
+                    <tabBarItem key="tabBarItem" title="Current Parking" image="parkingsign.circle" catalog="system" id="lY4-as-XZV">
+                        <color key="badgeColor" red="0.77647058820000003" green="0.5568627451" blue="0.1960784314" alpha="0.69803921570000005" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PEl-D0-WXs">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

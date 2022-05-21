@@ -1,15 +1,31 @@
+//
+//  ParkingDetailViewController.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
+
 import MapKit
 import UIKit
 
+// The ParkingDetailViewController aims to control and display the parking detail to user.
 class ParkingDetailViewController: UIViewController {
 
+    // Set up UI labels, map view and UI slider.
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var firstLabel: UILabel!
     @IBOutlet var secondLabel: UILabel!
     @IBOutlet var thirdLabel: UILabel!
     @IBOutlet var parkingDurationLabel: UILabel!
     @IBOutlet var parkingDurationSlider: UISlider!
-
+    
+    // Set up a variable places to store the parking place
     var place: ParkingPlace!
 
     override func viewDidLoad() {

@@ -1,15 +1,32 @@
+//
+//  ParkingDataManager.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
+
 import Foundation
 
+// Clarify a struct of CurrentParkigSession to store the relevant data
 struct CurrentParkingSession: Codable {
     var place: ParkingPlace
     var time: Date
     var duration: Int // mins
 }
 
+// Clarify a struct of ParkingRecord to store the relevant data
 struct ParkingRecord {
     // TODO:
 }
 
+// Clarify a class of ParkingDataManager.
+// This class aims to store the current session and store data extracting from the API into local.
 class ParkingDataManager {
 
     static let shared: ParkingDataManager = ParkingDataManager()
