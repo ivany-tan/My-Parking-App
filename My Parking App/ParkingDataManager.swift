@@ -1,12 +1,14 @@
-//
-//  ParkingDataManager.swift
-//  My Parking App
-//
-//  Created by Ivan Tan on 16/5/2022.
-//
-
-
 import Foundation
+
+struct CurrentParkingSession: Codable {
+    var place: ParkingPlace
+    var time: Date
+    var duration: Int // mins
+}
+
+struct ParkingRecord {
+    // TODO:
+}
 
 class ParkingDataManager {
 
@@ -27,20 +29,6 @@ class ParkingDataManager {
 
     // MARK: - Current Parking(tab 2) function
 
-    /// Call when press start parking
-    func saveCurrentParkingSession(place: ParkingPlace, time: Date, duration: Int) {
-        // TODO: Save current selected parking place to local
-    }
-
-    /// Call when user select current parking tab(viewWillAppear)
-    func readCurrentParkingSession() -> CurrentParkingSession? {
-        // TODO: Read current parking session if exists
-        nil
-    }
-
-    func deleteCurrentParkingSession() {
-        // TODO: Delete/Clear current parking session from local
-    }
 
     // MARK: - Record(tab 3) functions
 
@@ -53,12 +41,4 @@ class ParkingDataManager {
         []
     }
 
-}
-
-struct CurrentParkingSession {
-    // TODO:
-}
-
-struct ParkingRecord {
-    // TODO:
 }
