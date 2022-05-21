@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E5DE1D228353255002D4CC6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DE1D128353255002D4CC6 /* TestViewController.swift */; };
 		B338D98C282FC64300D0A71E /* Parking_meters.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B338D98B282FC64300D0A71E /* Parking_meters.geojson */; };
 		B338D98E282FC6ED00D0A71E /* ParkingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338D98D282FC6ED00D0A71E /* ParkingDataManager.swift */; };
 		B338D990282FC73600D0A71E /* ParkingPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338D98F282FC73600D0A71E /* ParkingPlace.swift */; };
@@ -19,10 +18,10 @@
 		B3789913282F41D3003B26C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3789911282F41D3003B26C2 /* Main.storyboard */; };
 		B3789915282F41D5003B26C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3789914282F41D5003B26C2 /* Assets.xcassets */; };
 		B3789918282F41D5003B26C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3789916282F41D5003B26C2 /* LaunchScreen.storyboard */; };
+		B3F968C82836255A0030EE73 /* CurrentParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F968C72836255A0030EE73 /* CurrentParkingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E5DE1D128353255002D4CC6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B338D98B282FC64300D0A71E /* Parking_meters.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Parking_meters.geojson; sourceTree = "<group>"; };
 		B338D98D282FC6ED00D0A71E /* ParkingDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDataManager.swift; sourceTree = "<group>"; };
 		B338D98F282FC73600D0A71E /* ParkingPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPlace.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		B3789914282F41D5003B26C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3789917282F41D5003B26C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3789919282F41D5003B26C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F968C72836255A0030EE73 /* CurrentParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentParkingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 				B378990B282F41D3003B26C2 /* AppDelegate.swift */,
 				B378990D282F41D3003B26C2 /* SceneDelegate.swift */,
 				B338D98D282FC6ED00D0A71E /* ParkingDataManager.swift */,
+				B3F968C72836255A0030EE73 /* CurrentParkingViewController.swift */,
 				B338D991282FC9CE00D0A71E /* ParkingMapViewController.swift */,
 				B338D993282FCD9500D0A71E /* SearchPlaceViewController.swift */,
 				B338D995282FD89200D0A71E /* ParkingDetailViewController.swift */,
@@ -80,7 +81,6 @@
 				B3789914282F41D5003B26C2 /* Assets.xcassets */,
 				B3789916282F41D5003B26C2 /* LaunchScreen.storyboard */,
 				B3789919282F41D5003B26C2 /* Info.plist */,
-				5E5DE1D128353255002D4CC6 /* TestViewController.swift */,
 			);
 			path = "My Parking App";
 			sourceTree = "<group>";
@@ -159,12 +159,12 @@
 			files = (
 				B338D98E282FC6ED00D0A71E /* ParkingDataManager.swift in Sources */,
 				B338D992282FC9CE00D0A71E /* ParkingMapViewController.swift in Sources */,
-				5E5DE1D228353255002D4CC6 /* TestViewController.swift in Sources */,
 				B378990C282F41D3003B26C2 /* AppDelegate.swift in Sources */,
 				B338D990282FC73600D0A71E /* ParkingPlace.swift in Sources */,
 				B338D994282FCD9500D0A71E /* SearchPlaceViewController.swift in Sources */,
 				B338D996282FD89200D0A71E /* ParkingDetailViewController.swift in Sources */,
 				B378990E282F41D3003B26C2 /* SceneDelegate.swift in Sources */,
+				B3F968C82836255A0030EE73 /* CurrentParkingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

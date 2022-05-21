@@ -1,11 +1,3 @@
-//
-//  ParkingDetailViewController.swift
-//  My Parking App
-//
-//  Created by Ivan Tan on 17/5/2022.
-//
-
-
 import MapKit
 import UIKit
 
@@ -39,9 +31,6 @@ class ParkingDetailViewController: UIViewController {
         parkingDurationLabel.text = "Parking Duration (\(hours)hr \(mins)min)"
     }
     @IBAction func onStartParkingTapped(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-        self.tabBarController?.selectedIndex = 1
-
         ParkingDataManager.shared.saveCurrentParkingSession(
             place: place,
             time: Date(),

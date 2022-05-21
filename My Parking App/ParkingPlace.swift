@@ -1,11 +1,3 @@
-//
-//  ParkingPlace.swift
-//  My Parking App
-//
-//  Created by Ivan Tan on 16/5/2022.
-//
-
-
 import MapKit
 
 struct Root: Codable {
