@@ -1,13 +1,32 @@
+//
+//  SearchPlaceViewController.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
+
 import Foundation
 import UIKit
 
+// The SearchPlaceViewController aims to control and display the searching result to user.
 class SearchPlaceViewController: UITableViewController, UISearchBarDelegate {
-
+    
+    // Set up a variable places to store the parking place
     var places: [ParkingPlace] = []
+    
+    // Set up a variable filteredPlaces to store the filtered parking place
     var filteredPlaces: [ParkingPlace] = []
 
+    // Set up a variable parkingDataManager to store the data from ParkingDataManager
     let parkingDataManager = ParkingDataManager()
-
+    
+    // Set up a variable selectedPlace to store the data from ParkingPlace
     var selectedPlace: ParkingPlace?
 
     override func viewDidLoad() {
@@ -49,7 +68,8 @@ class SearchPlaceViewController: UITableViewController, UISearchBarDelegate {
             parkingDetailViewController.place = selectedPlace!
         }
     }
-
+    
+    // Display the search bar on the page
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         guard let searchKeyword = searchBar.text?.lowercased() else {
             return

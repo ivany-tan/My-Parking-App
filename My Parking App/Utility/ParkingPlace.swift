@@ -1,14 +1,30 @@
+//
+//  ParkingPlace.swift
+//  My Parking App
+//
+//  Created by Unicorn Studio
+//  Group member: Yujie Tan 14343103
+//  Group member: Tingyu Lu 14093367
+//
+//  Assignment 3, for 41889 & 42889 Application Development in the IOS Environment IOS Application Development
+//
+//  Copyright © 2022 Unicorn Studio All rights reserved.
+//
+
 import MapKit
 
+// Clarify a struct of root to store the features from API
 struct Root: Codable {
     let features: [ParkingPlace]
 }
 
+// Clarify a struct of ParkingPlace to store the type, properties and other Geometry Information
 struct ParkingPlace: Codable {
     let type: String
     let properties: Properties
     let geometry: Geometry
 
+    // Create a function aims to store the longitude and latitude information
     func convertToAnnotation() -> MKAnnotation {
         let longitude = geometry.coordinates[0]
         let latitude = geometry.coordinates[1]
@@ -23,6 +39,7 @@ struct ParkingPlace: Codable {
     }
 }
 
+// Clarify a class of ParkingPlaceAnnotation to store the location information of the current session
 class ParkingPlaceAnnotation: NSObject, MKAnnotation {
     let parkingPlace: ParkingPlace
     let coordinate: CLLocationCoordinate2D
@@ -38,11 +55,13 @@ class ParkingPlaceAnnotation: NSObject, MKAnnotation {
     }
 }
 
+// Clarify a struct of Gemoetry to store the relevant data
 struct Geometry: Codable {
     let type: String
     let coordinates: [Double]
 }
 
+// Clarify a struct of Properties to store the relevant data
 struct Properties: Codable {
     let objectid, meterID: Int
     let locationID: String
