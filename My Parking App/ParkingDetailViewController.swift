@@ -36,5 +36,17 @@ class ParkingDetailViewController: UIViewController {
             time: Date(),
             duration: Int(parkingDurationSlider.value * 60)
         )
+        
+        let alertController = UIAlertController(title: "Parking Started", message: "Your parking has already started", preferredStyle: .alert)
+        
+        alertController.addAction(
+            .init(title: "OK", style: .default, handler: { _ in
+                self.navigationController?.popViewController(animated: true)
+
+                self.tabBarController?.selectedIndex = 1
+            })
+        )
+        
+        self.present(alertController, animated: true)
     }
 }
