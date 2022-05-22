@@ -2,9 +2,9 @@
 iOS App Dev Assignment 3 Car Parking in Sydney
 
 # Team Mates & Contribution
-Yujie Tan (SID: 14343103) with a 100% contribution toward the app development
-Tingyu Lu (SID: 14093377) with a 100% contribution toward the app development
-Xiaohao Yang (SID: 12481622) with a 0% contribution toward the app development
+- Yujie Tan (SID: 14343103) with a 100% contribution toward the app development
+- Tingyu Lu (SID: 14093377) with a 100% contribution toward the app development
+- Xiaohao Yang (SID: 12481622) with a 0% contribution toward the app development
 
 # Description of the App
 - MyParking is an iOS application for Sydney drivers
