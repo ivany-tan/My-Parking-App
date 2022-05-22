@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C5386982839F3CB00BFC0B7 /* LaunchPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5386962839F3CB00BFC0B7 /* LaunchPage.storyboard */; };
+		8C018EE4283A413A00C230E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C018EE2283A413A00C230E9 /* LaunchScreen.storyboard */; };
 		B338D98C282FC64300D0A71E /* Parking_meters.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B338D98B282FC64300D0A71E /* Parking_meters.geojson */; };
 		B338D98E282FC6ED00D0A71E /* ParkingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338D98D282FC6ED00D0A71E /* ParkingDataManager.swift */; };
 		B338D990282FC73600D0A71E /* ParkingPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338D98F282FC73600D0A71E /* ParkingPlace.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C5386972839F3CB00BFC0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchPage.storyboard; sourceTree = "<group>"; };
+		8C018EE3283A413A00C230E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C8F0EF2283915A40012206B /* Artboard 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 180.png"; sourceTree = "<group>"; };
 		8C8F0EF3283915A40012206B /* Artboard 160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 160.png"; sourceTree = "<group>"; };
 		8C8F0EF4283915A50012206B /* Artboard 1180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1180.png"; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 				8C8F0F0C28391D4B0012206B /* Utility */,
 				8C8F0F0B28391D2A0012206B /* ViewController */,
 				B3789911282F41D3003B26C2 /* Main.storyboard */,
-				8C5386962839F3CB00BFC0B7 /* LaunchPage.storyboard */,
+				8C018EE2283A413A00C230E9 /* LaunchScreen.storyboard */,
 				B3789914282F41D5003B26C2 /* Assets.xcassets */,
 				B3789919282F41D5003B26C2 /* Info.plist */,
 			);
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B338D98C282FC64300D0A71E /* Parking_meters.geojson in Resources */,
+				8C018EE4283A413A00C230E9 /* LaunchScreen.storyboard in Resources */,
 				B3789915282F41D5003B26C2 /* Assets.xcassets in Resources */,
-				8C5386982839F3CB00BFC0B7 /* LaunchPage.storyboard in Resources */,
 				B3789913282F41D3003B26C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,12 +277,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C5386962839F3CB00BFC0B7 /* LaunchPage.storyboard */ = {
+		8C018EE2283A413A00C230E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C5386972839F3CB00BFC0B7 /* Base */,
+				8C018EE3283A413A00C230E9 /* Base */,
 			);
-			name = LaunchPage.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		B3789911282F41D3003B26C2 /* Main.storyboard */ = {
