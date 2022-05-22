@@ -5,6 +5,8 @@ iOS App Development Assignment 3
 - Yujie Tan (SID: 14343103) with a 100% contribution towards the app development
 - Tingyu Lu (SID: 14093377) with a 100% contribution towards the app development
 - Xiaohao Yang (SID: 12481622) with a 0% contribution towards the app development
+-
+- It should be mentioned that the Mr Yang, Xinhao, did not attend the presentation and did not provide any coding works related to the Assignment 3. Due to his zero contribution and unwillingness to communicate and cooperate, his overall contribution is considered as 0.
 
 # Description of the App
 - MyParking is an iOS application for Sydney drivers
