@@ -17,3 +17,4 @@ iOS App Dev Assignment 3 Car Parking in Sydney
 - user can end the parking anytime
 
 # Github URL:
+https://github.com/ivany-tan/My-Parking-App.git
